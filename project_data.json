@@ -1,0 +1,217 @@
+{
+  "market_analysis": {
+    "yearly_growth": [
+      {"year": 2020, "taxi_companies": 12500, "courier_companies": 9800, "total_companies": 22300},
+      {"year": 2021, "taxi_companies": 14200, "courier_companies": 11500, "total_companies": 25700},
+      {"year": 2022, "taxi_companies": 15800, "courier_companies": 13200, "total_companies": 29000},
+      {"year": 2023, "taxi_companies": 17500, "courier_companies": 14800, "total_companies": 32300},
+      {"year": 2024, "taxi_companies": 19200, "courier_companies": 16500, "total_companies": 35700}
+    ],
+    "regional_distribution": [
+      {"region": "Москва", "companies": 12500, "growth_rate": 18.5},
+      {"region": "СПб", "companies": 6800, "growth_rate": 16.2},
+      {"region": "Новосибирск", "companies": 3200, "growth_rate": 14.8},
+      {"region": "Екатеринбург", "companies": 2800, "growth_rate": 15.3},
+      {"region": "Казань", "companies": 2600, "growth_rate": 17.1},
+      {"region": "Нижний Новгород", "companies": 2200, "growth_rate": 13.9},
+      {"region": "Ростов-на-Дону", "companies": 2100, "growth_rate": 16.7},
+      {"region": "Краснодар", "companies": 1900, "growth_rate": 19.2}
+    ],
+    "fleet_size_distribution": [
+      {"fleet_size": "1 автомобиль", "companies": 8500, "percentage": 23.8},
+      {"fleet_size": "2 автомобиля", "companies": 7200, "percentage": 20.2},
+      {"fleet_size": "3 автомобиля", "companies": 5800, "percentage": 16.2},
+      {"fleet_size": "4 автомобиля", "companies": 4200, "percentage": 11.8},
+      {"fleet_size": "5 автомобилей", "companies": 3500, "percentage": 9.8},
+      {"fleet_size": "6-10 автомобилей", "companies": 4800, "percentage": 13.4},
+      {"fleet_size": "11+ автомобилей", "companies": 1200, "percentage": 3.4}
+    ]
+  },
+  "financial_analysis": {
+    "cost_comparison": [
+      {"model": "Kia Rio", "correct_choice_cost": 1850000, "wrong_choice_penalty": 278000, "annual_saving": 89000},
+      {"model": "Hyundai Solaris", "correct_choice_cost": 1750000, "wrong_choice_penalty": 218000, "annual_saving": 76000},
+      {"model": "Volkswagen Polo", "correct_choice_cost": 1950000, "wrong_choice_penalty": 351000, "annual_saving": 112000},
+      {"model": "Lada Vesta", "correct_choice_cost": 1350000, "wrong_choice_penalty": 162000, "annual_saving": 54000},
+      {"model": "Skoda Rapid", "correct_choice_cost": 1680000, "wrong_choice_penalty": 235000, "annual_saving": 82000},
+      {"model": "Renault Logan", "correct_choice_cost": 1650000, "wrong_choice_penalty": 198000, "annual_saving": 68000},
+      {"model": "Citroen Berlingo", "correct_choice_cost": 1950000, "wrong_choice_penalty": 312000, "annual_saving": 95000},
+      {"model": "Ford Transit", "correct_choice_cost": 2150000, "wrong_choice_penalty": 387000, "annual_saving": 124000}
+    ],
+    "potential_savings": [
+      {"scenario": "Пессимистичный", "market_penetration": 15, "yearly_saving_millions": 428},
+      {"scenario": "Реалистичный", "market_penetration": 30, "yearly_saving_millions": 855},
+      {"scenario": "Оптимистичный", "market_penetration": 45, "yearly_saving_millions": 1283}
+    ]
+  },
+  "competitor_analysis": {
+    "solutions_comparison": [
+      {
+        "solution": "Наш ТГ-бот",
+        "price_per_month": 0,
+        "implementation_days": 0,
+        "ease_of_use": 4.8,
+        "functionality": 4.0,
+        "target_audience": "Малый бизнес"
+      },
+      {
+        "solution": "Дорогая телематика",
+        "price_per_month": 1500,
+        "implementation_days": 14,
+        "ease_of_use": 3.2,
+        "functionality": 4.7,
+        "target_audience": "Крупный бизнес"
+      },
+      {
+        "solution": "Консультации экспертов",
+        "price_per_month": 5000,
+        "implementation_days": 1,
+        "ease_of_use": 4.0,
+        "functionality": 3.8,
+        "target_audience": "Средний бизнес"
+      },
+      {
+        "solution": "Сложные ERP-системы",
+        "price_per_month": 25000,
+        "implementation_days": 90,
+        "ease_of_use": 2.5,
+        "functionality": 4.9,
+        "target_audience": "Корпорации"
+      }
+    ],
+    "market_coverage_gap": {
+      "unserved_small_business": 28700,
+      "unserved_medium_business": 5400,
+      "total_unserved_market": 34100,
+      "gap_percentage": 72.5
+    }
+  },
+  "user_behavior_analysis": {
+    "selection_criteria": [
+      {"criterion": "Стоимость авто", "importance": 4.7},
+      {"criterion": "Расход топлива", "importance": 4.5},
+      {"criterion": "Надежность", "importance": 4.3},
+      {"criterion": "Стоимость обслуживания", "importance": 4.2},
+      {"criterion": "Комфорт", "importance": 3.8},
+      {"criterion": "Грузоподъемность", "importance": 3.5},
+      {"criterion": "Внешний вид", "importance": 2.9}
+    ],
+    "decision_pain_points": [
+      {"pain_point": "Нет времени на исследование", "frequency": 68},
+      {"pain_point": "Слишком много вариантов", "frequency": 54},
+      {"pain_point": "Нет экспертных знаний", "frequency": 47},
+      {"pain_point": "Боюсь переплатить", "frequency": 72},
+      {"pain_point": "Не понимаю тех характеристик", "frequency": 39}
+    ]
+  },
+  "business_metrics": {
+    "customer_acquisition": {
+      "cac_rub": 1500,
+      "ltv_rub": 0,
+      "break_even_users": 0,
+      "monthly_growth_target": 300
+    },
+    "market_impact": {
+      "potential_companies_served": 35700,
+      "potential_cars_optimized": 142800,
+      "yearly_market_saving_potential": 855000000,
+      "jobs_supported": 45
+    }
+  },
+  "car_recommendations": {
+    "taxi": [
+      {
+        "model": "Kia Rio",
+        "price": 1850000,
+        "fuel_consumption": 7.8,
+        "reliability": 4.6,
+        "comfort": 4.3,
+        "advantages": ["низкое ТО", "доступные запчасти", "просторный салон"],
+        "description": "Идеален для городских поездок"
+      },
+      {
+        "model": "Hyundai Solaris",
+        "price": 1750000,
+        "fuel_consumption": 7.5,
+        "reliability": 4.4,
+        "comfort": 4.1,
+        "advantages": ["бюджетный", "экономичный", "надежный"],
+        "description": "Бюджетный вариант для такси"
+      },
+      {
+        "model": "Volkswagen Polo",
+        "price": 1950000,
+        "fuel_consumption": 7.9,
+        "reliability": 4.7,
+        "comfort": 4.5,
+        "advantages": ["премиум-класс", "комфорт", "безопасность"],
+        "description": "Премиальный выбор для такси"
+      },
+      {
+        "model": "Lada Vesta",
+        "price": 1350000,
+        "fuel_consumption": 8.2,
+        "reliability": 4.2,
+        "comfort": 3.9,
+        "advantages": ["самый бюджетный", "отечественные запчасти", "простой ремонт"],
+        "description": "Лучший бюджетный вариант"
+      },
+      {
+        "model": "Skoda Rapid",
+        "price": 1680000,
+        "fuel_consumption": 7.6,
+        "reliability": 4.5,
+        "comfort": 4.2,
+        "advantages": ["надежность", "экономичность", "европейское качество"],
+        "description": "Сбалансированный вариант"
+      }
+    ],
+    "courier": [
+      {
+        "model": "Renault Logan Van",
+        "price": 1650000,
+        "fuel_consumption": 7.2,
+        "cargo_volume": 3.3,
+        "reliability": 4.5,
+        "advantages": ["вместительный", "проходимость", "дешевое ТО"],
+        "description": "Идеален для доставки мелких грузов"
+      },
+      {
+        "model": "Citroën Berlingo",
+        "price": 1950000,
+        "fuel_consumption": 7.6,
+        "cargo_volume": 3.7,
+        "reliability": 4.3,
+        "advantages": ["мощный двигатель", "большой объем", "комфорт"],
+        "description": "Мощный вариант для частых поездок"
+      },
+      {
+        "model": "Ford Transit Connect",
+        "price": 2150000,
+        "fuel_consumption": 8.1,
+        "cargo_volume": 3.9,
+        "reliability": 4.6,
+        "advantages": ["максимальный объем", "надежность", "удобство"],
+        "description": "Для крупных грузов"
+      },
+      {
+        "model": "Gazelle Next",
+        "price": 1850000,
+        "fuel_consumption": 10.5,
+        "cargo_volume": 8.5,
+        "reliability": 4.1,
+        "advantages": ["огромный объем", "грузоподъемность", "отечественный"],
+        "description": "Для крупногабаритных грузов"
+      },
+      {
+        "model": "Peugeot Partner",
+        "price": 1720000,
+        "fuel_consumption": 7.4,
+        "cargo_volume": 3.4,
+        "reliability": 4.4,
+        "advantages": ["экономичность", "маневренность", "надежность"],
+        "description": "Самый экономичный вариант"
+      }
+    ]
+  }
+}
